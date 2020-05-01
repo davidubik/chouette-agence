@@ -1792,7 +1792,7 @@ ol ol,
 ol ul,
 ul ol,
 ul ul {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .list-unstyled {
