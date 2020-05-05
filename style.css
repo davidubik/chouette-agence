@@ -337,7 +337,7 @@ a:hover {
 
 .nav__li:hover  
 {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #575757;
 }
 
 .nav > li {
@@ -521,6 +521,14 @@ button {
 
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
+}
+
+/* Ajout de la class footer__partenaires */
+.footer__partenaires 
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: .8em;
 }
 
 .form-control {
@@ -844,11 +852,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere-compressor.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
