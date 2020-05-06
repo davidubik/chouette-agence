@@ -142,6 +142,7 @@ a:hover {
 .citation
 {
     font-style: italic;
+    font-size: 1em;
 }
 
 .d-bloc .a-btn:hover,
