@@ -538,6 +538,16 @@ button {
     box-shadow: none;
 }
 
+.adresse
+{
+     /* margin-top: 25%;
+     margin-left: 25%;
+    width: 25%; */
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -784,6 +794,8 @@ h4 {
     margin-top: 50px;
 }
 
+
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -854,7 +866,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere-compressor.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
@@ -1070,10 +1082,32 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .portfolio__img3, .portfolio__img4
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin-left: 17%;
+    }
+    .social
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .adresse
+    {
+        text-align: center;
+        margin-left: -5%;
+        margin-top: 2%;
     }
 }
