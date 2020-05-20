@@ -27,6 +27,16 @@ a:hover {
     background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
+.logo_text
+{
+    height: 40px;
+}
+
+.logo
+{
+    width: 100px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -70,6 +80,11 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
+}
+
+.block3__contact
+{
+    text-align: center;
 }
 
 .bg-repeat {
@@ -135,6 +150,20 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+
+/* .icon-lg
+{
+    margin-left: 35%;
+} 
+.icon-strategic
+{
+    margin-left: 38%;
+}
+
+.icon-illustration
+{
+    margin-left: 39%;
+} */
 
 
 /* Ajout de class pour l'optimisation du SEO */
@@ -382,46 +411,6 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -498,7 +487,7 @@ button {
 .icon-md {
     font-size: 30px!important;
 }
-
+/* ICON */
 .icon-lg {
     font-size: 60px!important;
 }
@@ -525,6 +514,7 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+
 /* Ajout de la class footer__partenaires */
 .footer__partenaires 
 {
@@ -540,9 +530,6 @@ button {
 
 .adresse
 {
-     /* margin-top: 25%;
-     margin-left: 25%;
-    width: 25%; */
     text-align: center;
     margin-left: 27%;
     margin-top: 2%;
@@ -726,6 +713,11 @@ p {
     font-size: 11px;
 }
 
+.block2__p
+{
+    font-size: 1.4em;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -748,7 +740,10 @@ p {
 .social {
      max-width: 400px; 
      margin: auto auto auto auto; 
+     margin-top: 2%;
 }
+
+
 
 h2 {
     font-size: 22px;
@@ -794,7 +789,10 @@ h4 {
     margin-top: 50px;
 }
 
-
+.block
+{
+    display: block;
+}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -870,7 +868,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg");
+    background-image: url("../img/la-chouette-agence-presentation.jpg");
 }
 
 
@@ -935,6 +933,47 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+}
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
+    .nav-center {
+        text-align: center;
+    }
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
     }
 }
 
@@ -1077,13 +1116,6 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-}
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -1096,7 +1128,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
         text-align: center;
-        margin-left: 17%;
+        margin-left: 15%;
     }
     .social
     {
@@ -1110,4 +1142,12 @@ h4 {
         margin-left: -5%;
         margin-top: 2%;
     }
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
 }
